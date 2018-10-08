@@ -1,0 +1,21 @@
+@mixin fontlv2 {
+	font-family: 'Meie Script', cursive;
+	font-size: 50px;
+}
+
+.headline {
+	&__lv1 {
+	}
+	&__lv2 {
+		font-family: 'Meie Script', cursive;
+		font-size: 50px;
+	}
+	&__lv3 {
+	}
+	&__lv4 {
+	}
+	&__lv5 {
+	}
+	&__lv6 {
+	}
+}

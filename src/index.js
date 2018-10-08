@@ -1,6 +1,8 @@
+import Vue from 'vue'
+import mainvisual from './components/top-mainvisual.vue'
+
 var app = new Vue ( {
 	el: "#app",
-	data: {
-		message: "Hello World30"
-	}
+	components: { mainvisual },
+	template: "<mainvisual></mainvisual>"
 } );
